@@ -8,9 +8,12 @@ export default {
   dataTable: {
     itemsPerPageText: 'Редове на страница:',
     ariaLabel: {
-      sortDescending: ': Сортирани низходящо. Активирайте за да сортирате възходящо.',
-      sortAscending: ': Сортирани възходящо. Активирайте за да сортирате низходящо.',
-      sortNone: ': Не сортирани. Активирайте за да сортирате възходящо.',
+      sortDescending: ': Сортирани низходящо.',
+      sortAscending: ': Сортирани възходящо.',
+      sortNone: ': Не сортирани.',
+      activateNone: 'Активирайте за да сортирате възходящо.',
+      activateDescending: 'Активирайте за да сортирате възходящо.',
+      activateAscending: 'Активирайте за да сортирате низходящо.',
     },
     sortBy: 'Сортиране по',
   },
@@ -25,6 +28,10 @@ export default {
   },
   datePicker: {
     itemsSelected: '{0} избрани',
+    nextMonthAriaLabel: 'Следващ месец',
+    nextYearAriaLabel: 'Следваща година',
+    prevMonthAriaLabel: 'Предишен месец',
+    prevYearAriaLabel: 'Предишна година',
   },
   noDataText: 'Няма налични данни',
   carousel: {
@@ -44,5 +51,14 @@ export default {
   timePicker: {
     am: 'AM',
     pm: 'PM',
+  },
+  pagination: {
+    ariaLabel: {
+      wrapper: 'Навигация в страниците',
+      next: 'Дледваща страница',
+      previous: 'Предишна страница',
+      page: 'Към страница {0}',
+      currentPage: 'Текуща страница, Страница {0}',
+    },
   },
 }
