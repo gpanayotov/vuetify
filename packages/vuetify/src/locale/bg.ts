@@ -8,8 +8,8 @@ export default {
   dataTable: {
     itemsPerPageText: 'Редове на страница:',
     ariaLabel: {
-      sortDescending: ': Сортирани низходящо.',
-      sortAscending: ': Сортирани възходящо.',
+      sortDescending: 'Сортирани низходящо.',
+      sortAscending: 'Сортирани възходящо.',
       sortNone: ': Не сортирани.',
       activateNone: 'Активирайте за да сортирате възходящо.',
       activateDescending: 'Активирайте за да сортирате възходящо.',
